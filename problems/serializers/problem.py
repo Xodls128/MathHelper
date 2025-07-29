@@ -6,4 +6,4 @@ class ProblemSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Problem
-        fields = ['id', 'title', 'image', 'difficulty', 'tags', 'created_at']
+        fields = ['id', 'title', 'image', 'difficulty', 'created_at']
